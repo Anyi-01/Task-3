@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+.app{
+  min-width:100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 40px;
+  background: #f7f7f7;
+}
+.product{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
